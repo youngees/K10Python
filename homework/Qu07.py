@@ -19,3 +19,12 @@ for i in range(6):
     for j in range(2*i-1):
         print("*", end="")
     print()    
+
+
+#선생님 버전
+for j in range(5):
+    for i in range(4-j):
+        print(' ', end='')
+    for i in range(2*(j+1)-1):
+        print('*', end='')
+    print("")

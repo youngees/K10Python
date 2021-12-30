@@ -7,3 +7,8 @@
 '''
 
 print('*'*5)
+
+
+#선생님 버전
+for i in range(5):
+    print('*', end='')

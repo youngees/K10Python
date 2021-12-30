@@ -11,3 +11,10 @@
 
 for i in range(4):
     print("*" *5)
+
+
+#선생님 버전
+for j in range(4):
+    for i in range(5):
+        print('*', end='')
+    print("")

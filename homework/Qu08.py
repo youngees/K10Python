@@ -16,4 +16,13 @@ for i in range(5):
         elif j<9-i:
             print("*", end='')
     print()
-            
+
+
+
+#선생님 버전
+for j in range(5):
+    for i in range(j):
+        print(' ', end='')
+    for i in range(2*(5-j)-1):
+        print('*', end='')
+    print("")
